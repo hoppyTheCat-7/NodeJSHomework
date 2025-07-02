@@ -1,0 +1,130 @@
+// Initial data.json:
+
+[
+    {
+        "recipeName": "Courgette Salad",
+        "preptime": "20'",
+        "ingredients": [
+            {
+                "name": "courgette",
+                "quantity": "1"
+            },
+            {
+                "name": "goat cheese",
+                "quantity": "50gr"
+            },
+            {
+                "name": "chili pepper",
+                "quantity": "1"
+            },
+            {
+                "name": "garlic",
+                "quantity": "1 clove"
+            },
+            {
+                "name": "mint",
+                "quantity": "5-7 leaves"
+            },
+            {
+                "name": "salt",
+                "quantity": "a pinch"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "3 Tbsp"
+            },
+            {
+                "name": "white-vine vinegar",
+                "quantity": "a splash"
+            }
+        ]
+    },
+    {
+        "recipeName": "Summer Salad",
+        "preptime": "15'",
+        "ingredients": [
+            {
+                "name": "rocket",
+                "quantity": "125gr"
+            },
+            {
+                "name": "Gorgonzola cheese",
+                "quantity": "150gr"
+            },
+            {
+                "name": "pears",
+                "quantity": "2"
+            },
+            {
+                "name": "walnuts",
+                "quantity": "4"
+            },
+            {
+                "name": "black pepper",
+                "quantity": "a pinch"
+            },
+            {
+                "name": "salt",
+                "quantity": "a pinch"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "3 Tbsp"
+            },
+            {
+                "name": "balsamic vinegar",
+                "quantity": "a splash"
+            }
+        ]
+    },
+    {
+        "recipeName": "Panzanella Salad",
+        "preptime": "30'",
+        "ingredients": [
+            {
+                "name": "cherry tomatoes",
+                "quantity": "400gr"
+            },
+            {
+                "name": "cucumber",
+                "quantity": "1"
+            },
+            {
+                "name": "red onion",
+                "quantity": "1"
+            },
+            {
+                "name": "garlic",
+                "quantity": "3 cloves"
+            },
+            {
+                "name": "baby mozzarella",
+                "quantity": "100gr"
+            },
+            {
+                "name": "bread",
+                "quantity": "3 slices"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "4 Tbsp"
+            },
+            {
+                "name": "balsamic vinegar",
+                "quantity": "1Tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "a pinch"
+            },
+            {
+                "name": "black pepper",
+                "quantity": "a pinch"
+            },
+            {
+                "name": "fresh basel",
+                "quantity": "a handful"
+            }
+        ]
+    }
+]
