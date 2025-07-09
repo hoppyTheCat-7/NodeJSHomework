@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body {
+            margin: 20px;
+        }
+        form {
+            background-color: #eee;
+            padding: 20px;
+            width: 40%;
+            border: #cdcdcd;
+            border-radius: 8px;
+        }
+        #text {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            outline: none;
+            border: none;
+            resize: none;
+        }
+        button {
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="/analiza" method="post">
+        <label for="text">Enter a piece of text below:</label><br>
+        <textarea 
+            name="text" 
+            id="text" 
+            rows="10" 
+            cols="50" 
+            placeholder="Type or paste your text here!" 
+            required></textarea><br>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>

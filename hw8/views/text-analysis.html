@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis Overview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body {
+            margin: 20px;
+            color: #fff;
+            background-color: #eee;
+        }
+        .analysis-findings {
+            background-color: #777;
+            padding: 20px;
+            width: 60%;
+            border: #cdcdcd;
+            border-radius: 8px;
+        }
+        ul {
+            padding: 20px;
+        }
+        ul li {
+            padding: 5px 0;
+            font-size: 18px;
+        }
+        ul li i {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="analysis-findings">
+        <h1>Text Analysis Findings</h1>
+        <ul>
+            <li>Total character count: <i>{{characterCount}}</i></li>
+            <li>Words shorter than 5 characters: <i>{{shortWords}}</i></li>
+            <li>Words longer than 5 characters: <i>{{longWords}}</i></li>
+            <li>Words with exactly 5 characters: <i>{{fiveCharWords}}</i></li>
+            <li>Total sentence count: <i>{{sentenceCount}}</i></li>
+            <li>Total word count: <i>{{wordCount}}</i></li>
+            <li>Total count of words starting with a vowel: <i>{{startWithVowelWords}}</i></li>
+        </ul>
+    </div>
+</body>
+</html>
