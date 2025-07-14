@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+</head>
+<body>
+    <%- include("partials/header", { page: "Student List:" }) %>
+
+    <table border="1" width="100%">
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>GPA</th>
+            <th>Removal</th>
+        </tr>
+        <% allStudents.forEach((student, index) => { %>
+            <tr>
+                <!-- <% console.log("Current index:", index); %> -->
+                <td><%= student.ime %></td>
+                <td><%= student.prezime %></td>
+                <td><%= student.prosek %></td>
+                <td><a href="/brishi?i=<%= index %>">Delete</a></td>
+                
+
+            </tr>
+        <% }) %>
+    </table>
+</body>
+</html>
