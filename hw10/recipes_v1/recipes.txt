@@ -1,0 +1,68 @@
+[
+    {
+        "recipeName": "Courgette Salad",
+        "preptime": "20'",
+        "ingredients": {
+            "courgette": 1,
+            "goat cheese": "50gr",
+            "chili pepper": 1,
+            "garlic": "1 clove",
+            "mint": "5-7 leaves",
+            "salt": "a pinch",
+            "olive oil": "3 Tbsp.",
+            "white-vine vinegar": "a splash"
+        },
+        "method": {
+            "firstStep": "In a large bowl, mix together some olive oil and white-vine vinegar.",
+            "secondStep": "Slice the garlic and the deseeded chili pepper and add them to the dressing.",
+            "thirdStep": "Using a peeler, slice the courgette lengthways as thinly as possible and toss everything in the bowl.",
+            "fourthStep": "Season with salt and chopped mint, and sprinkle with crumbled goat cheese on top.",
+            "fifthStep": "Finally, drizzle some more olive oil over the goat cheese."
+        }
+    },
+    {
+        "recipeName": "Summer Salad",
+        "preptime": "15'",
+        "ingredients": {
+            "rocket": "125gr",
+            "gorgonzola cheese": "150gr",
+            "pears": 2,
+            "walnuts": "4",
+            "black pepper": "a pinch",
+            "salt": "a pinch",
+            "olive oil": "3 Tbsp.",
+            "balsamic vinegar": "a splash"
+        },
+        "method": {
+            "firstStep": "Rinse and drain the rocket well, and place it on a platter.",
+            "secondStep": "Then, season with salt and black pepper, add the olive oil and the balsamic vinegar and toss well.",
+            "thirdStep": "Crumble the gorgonzola cheese on top.",
+            "fourthStep": "Arrange pear wedges and walnut kernels on opposite sides of the platter.",
+            "fifthStep": "Drizzle a small amount of balsamic cream over the top."
+        }
+    },
+    {
+        "recipeName": "Panzanella Salad",
+        "preptime": "30'",
+        "ingredients": {
+            "cherry tomatoes": "400gr",
+            "cucumber": 1,
+            "red onion": 1,
+            "garlic": "3 cloves",
+            "baby mozzarella": "100gr",
+            "bread": "3 slices",
+            "salt": "a pinch",
+            "black pepper": "a pinch",
+            "fresh basel": "a handful",
+            "oregano": "a pinch",
+            "olive oil": "4 Tbsp.",
+            "balsamic vinegar": "1 Tbsp."
+        },
+        "method": {
+            "firstStep": "Chop the vegies and mix them with the herbs in a large bowl.",
+            "secondStep": "Combine them with toasted bread cubes, baby mozzarella and the dressing of olive oil and balsamic vinegar.",
+            "thirdStep": "Toss everything to coat and add the seasoning to taste",
+            "fourthStep": "Cover the bowl and refrigirate for 30 minutes, tossing occasionally until the dressing is absorbed by the bread."
+        }
+    }
+]

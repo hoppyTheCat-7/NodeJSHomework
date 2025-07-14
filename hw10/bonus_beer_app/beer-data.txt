@@ -1,0 +1,74 @@
+[
+    {
+        "name": "NY Blueberry Cheese Cake with Chocolate & Maple Topping",
+        "style": "Stout Imperial/Double Pastry",
+        "abv": "12%",
+        "ibu": 18,
+        "brewery": "Brouwerij Kees",
+        "country": "Netherlands",
+        "rating": 3.99
+    },
+    {
+        "name": "Imperial Affogato Stout",
+        "style": "Stout Imperial/Double Coffee",
+        "abv": "8%",
+        "ibu": 38,
+        "brewery": "The Garden Brewery",
+        "country": "Croatia",
+        "rating": 4.05
+    },
+    {
+        "name": "The Chocolate Manifesto - Triple Chocolate Milk Stout",
+        "style": "Stout Imperial/Double Milk",
+        "abv": "10%",
+        "ibu": 60,
+        "brewery": "Flying Monkeys Craft Brewery",
+        "country": "Canada",
+        "rating": 4.12
+    },
+    {
+        "name": "Hagger Blend 0221",
+        "style": "Barleywine - American",
+        "abv": "12.2%",
+        "ibu": 80,
+        "brewery": "Brauhaus Bevog",
+        "country": "Austria",
+        "rating": 4.29
+    },
+    {
+        "name": "Neon Overload",
+        "style": "Chilli Beer",
+        "abv": "7.3%",
+        "ibu": 70,
+        "brewery": "BrewDog",
+        "country": "Scotland",
+        "rating": 3.48
+    },
+    {
+        "name": "Lazy & Hazy",
+        "style": "Pale Ale - New England / Hazy",
+        "abv": "4.3%",
+        "ibu": 20,
+        "brewery": "Kabinet Brewery",
+        "country": "Serbia",
+        "rating": 3.73
+    },
+    {
+        "name": "MYSTICORE",
+        "style": "IPA - New England / Hazy",
+        "abv": "7%",
+        "ibu": 45,
+        "brewery": "Garage Beer Co.",
+        "country": "Spain",
+        "rating": 3.91
+    },
+    {
+        "name": "Tripel Karmeliet",
+        "style": "Belgian Tripel",
+        "abv": "8.4%",
+        "ibu": 16,
+        "brewery": "Brouwerij Bosteels",
+        "country": "Belgium",
+        "rating": 3.98
+    }
+]

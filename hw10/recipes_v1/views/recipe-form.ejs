@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Creator</title>
+</head>
+<body>
+    <%- include("partials/header", { mainHeading: "Create a New Recipe" }) %>
+
+    <form action="/form" method="post">
+        <label for="recipename"><b>Recipe Name:</b></label><br>
+        <input type="text" id="recipename" name="recipeName" placeholder="e.g. Quiche Lorraine" required><br><br>
+
+        <label for="preptime"><b>Preparation Time:</b></label><br>
+        <input type="text" id="preptime" name="preptime" placeholder="e.g. 1 hr 50 min" required><br><br>
+
+        <label for="ingredients"><b>Ingredients</b>:</label><br>
+        <textarea id="ingredients" name="ingredients" rows="10" cols="30" placeholder="e.g eggs: 3" required></textarea><br><br>
+
+        <label for="instructions"><b>Instructions:</b></label><br>
+        <textarea id="instructions" name="method" rows="10" cols="30" placeholder="e.g. Whisk the eggs." required></textarea><br><br>
+        <button type="submit">Save Recipe</button>
+    </form>
+</body>
+</html>

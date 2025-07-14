@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer List</title>
+</head>
+<body>
+    <%- include("partials/header") %>
+
+    <table border="1" width="100%">
+        <tr>
+            <th>Beer Name</th>
+            <th>Style</th>
+            <th>ABV</th>
+            <th>IBU</th>
+            <th>Brewery</th>
+            <th>Country</th>
+            <th>Rating</th>
+            <th>Action</th>
+        </tr>
+
+        <% allItems.forEach((item, index) => { %>
+        <tr>
+            <td><%= item.name %></td>
+            <td><%= item.style %></td>
+            <td><%= item.abv %></td>
+            <td><%= item.ibu %></td>
+            <td><%= item.brewery %></td>
+            <td><%= item.country %></td>
+            <td><%= item.rating %></td>
+            <td><a href="/delete?index=<%= index %>">Delete</a></td>
+        </tr>
+        <% }) %>
+    </table>
+</body>
+</html>

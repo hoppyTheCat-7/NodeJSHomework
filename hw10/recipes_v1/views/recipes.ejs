@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Recipes</title>
+</head>
+<body>
+    <%- include("partials/header", { mainHeading: "All Recipes" }) %>
+
+    <table border="1" width="100%">
+        <tr>
+            <th>Recipe Name</th>
+            <th>Preparation Time</th>
+            <th>Ingredients</th>
+            <th>Instructions</th>
+            <th>Action</th>
+        </tr>
+        <% allRecipes.forEach((recipe, index) => { %>
+        <tr>
+            <td><%= recipe.recipeName %></td>
+            <td><%= recipe.preptime %></td>
+            <td>
+                <ul>
+                    <% if (typeof recipe.ingredients === "string") { %>
+                        <% recipe.ingredients.split("/n").forEach(ingredient => { %>
+                            <li><%= ingredient %></li>
+                        <% }) %>
+                    <% } else { %>
+                        <% for (let ingredient in recipe.ingredients) { %>
+                            <li><%= ingredient %>: <%= recipe.ingredients[ingredient] %></li>
+                        <% } %>
+                    <% } %>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <% if (typeof recipe.method === "string") { %>
+                        <% recipe.method.split("/n").forEach(step => { %>
+                            <li><%= step %></li>
+                        <% }) %>
+                    <% } else { %>
+                        <% for (let step in recipe.method) { %>
+                            <li><%= recipe.method[step] %></li>
+                        <% } %>
+                    <% } %>
+                </ol>
+            </td>
+            <td>
+                <a href="/delete?index=<%= index %>">Delete</a>
+            </td>
+        </tr>
+        <% }) %>
+    </table>
+</body>
+</html>

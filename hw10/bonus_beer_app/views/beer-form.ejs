@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer Form</title>
+</head>
+<body>
+    <%- include("partials/header") %>
+
+    <form action="/form" method="post">
+        <input type="text" name="name" placeholder="Beer name" required>
+        <input type="text" name="style" placeholder="Beer style" required>
+        <input type="text" name="abv" placeholder="ABV, e.g. 4.7%" required>
+        <input type="number" name="ibu" placeholder="IBU" min="0" max="100" required>
+        <input type="text" name="brewery" placeholder="Brewery" required>
+        <input type="text" name="country" placeholder="Country" required>
+        <input type="number" name="rating" placeholder="Rating" min="0" max="5" step="0.01" required>
+        <button type="submit">Submit</button>
+    </form>
+    <!-- Note to self: Consider the select element for some inputs e.g. country! -->
+</body>
+</html>

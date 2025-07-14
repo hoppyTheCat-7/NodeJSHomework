@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Creator</title>
+</head>
+<body>
+    <%- include("partials/header", { mainHeading: "Create a New Recipe" }) %>
+
+    <form action="/form" method="post">
+        <label for="recipename"><b>Recipe Name:</b></label><br>
+        <input type="text" id="recipename" name="recipeName" placeholder="e.g. Taratur Salad" required><br><br>
+
+        <label for="preptime"><b>Preparation Time:</b></label><br>
+        <input type="text" id="preptime" name="preptime" placeholder="e.g. 20 mins" required><br><br>
+
+        <h3>Ingredients:</h3>
+        <% for (let i = 0; i < 10; i++) { %>
+            <label for="ingredientKeys"><b>Ingredient Name:</b></label>
+            <input type="text" id="ingredientKeys" name="ingredientKeys[]" placeholder="e.g. cucumber">
+            <label for="ingredientValues"><b>Quantity:</b></label>
+            <input type="text" id="ingredientValues" name="ingredientValues[]" placeholder="e.g 1"><br><br>
+        <% } %>
+
+        <label for="instructions"><b>Instructions:</b></label><br>
+        <textarea name="method" id="instructions" rows="10" cols="50" placeholder="e.g. Chop the cucumber." required></textarea><br><br>
+        
+        <button type="submit">Send Recipe</button>
+    </form>
+</body>
+</html>
